@@ -14,25 +14,25 @@
       <form action="" class="pt-1">
         <div class="row justify-content-start mb-3">
           <div class="col-5">
-            <input type="month" name="date" class="form-control">
+            <input type="month" name="date" class="form-control" id="month">
           </div>
           <div class="col-3">
-            <select name="progress" id="" class="form-select">
-              <option value="">済</option>
-              <option value="">進行中</option>
-              <option value="">未着手</option>
+            <select name="progress" id="progress" class="form-select">
+              <option value="済">済</option>
+              <option value="進行中">進行中</option>
+              <option value="未着手">未着手</option>
             </select>
           </div>
           <div class="col-4">
-            <button class="btn btn-primary">登録</button>
+            <button type="button" class="btn btn-primary" id="regist">登録</button>
         </div>
         </div>
         <div class="mb-3">
-          <input class="form-control" type="text" name="title" placeholder="タイトル">
+          <input class="form-control" type="text" name="title" placeholder="タイトル" id="title">
         </div>
         <div class="mb-3">
 
-          <textarea class="form-control" name="overview" id="" cols="40" rows="5" placeholder="タスクの概要"></textarea>
+          <textarea class="form-control" name="overview" id="overview" cols="40" rows="5" placeholder="タスクの概要"></textarea>
         </div>
       </form>
     </div>
@@ -47,6 +47,9 @@
             <th>削除</th>
           </tr>
         </thead>
+        <tbody id="wrapper">
+          <!-- ここに表示 -->
+        </tbody>
       </table>
     </div>
   <script src="task-list.js"></script>
