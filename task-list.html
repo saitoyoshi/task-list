@@ -8,5 +8,47 @@
   <title>やったことリスト</title>
 </head>
 <body>
+  <div class="container py-4 w-50">
+    <h2 class="text-center fw-bold mb-4">期末面談用やったことリスト</h2>
+      <p class="">実施月、進捗、タイトル、タスク概要を入力してください</p>
+      <form action="" class="pt-1">
+        <div class="row justify-content-start mb-3">
+          <div class="col-5">
+            <input type="month" name="date" class="form-control">
+          </div>
+          <div class="col-3">
+            <select name="progress" id="" class="form-select">
+              <option value="">済</option>
+              <option value="">進行中</option>
+              <option value="">未着手</option>
+            </select>
+          </div>
+          <div class="col-4">
+            <button class="btn btn-primary">登録</button>
+        </div>
+        </div>
+        <div class="mb-3">
+          <input class="form-control" type="text" name="title" placeholder="タイトル">
+        </div>
+        <div class="mb-3">
+
+          <textarea class="form-control" name="overview" id="" cols="40" rows="5" placeholder="タスクの概要"></textarea>
+        </div>
+      </form>
+    </div>
+    <div class="container">
+      <table class="table table-borderless">
+        <thead class="text-center">
+          <tr class="table-success">
+            <th class="">実施月</th>
+            <th class="">進捗</th>
+            <th>タイトル</th>
+            <th>タスク概要</th>
+            <th>削除</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  <script src="task-list.js"></script>
 </body>
 </html>
