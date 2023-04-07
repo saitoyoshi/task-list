@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+.tc {
+  text-align: center;
+}
+.border-gray {
+  border: 2px solid gray;
+}
+.mb-3 {
+  margin-bottom: 0.5rem;
+}
+.my-ms {
+  margin-left: 60px;
+}
+.form-control {
+  width: 80%;
+  line-height: 1.5;
+}
+.description {
+}
+.task-form-wrapper {
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  width: 60%;
+}
+.todos-wrapper {
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  max-width:1000px;
+
+}
+.todos-table {
+  width: 100%;
+}
+.todos-table th {
+  background-color: rgba(24, 184, 128, 0.829);
+  color: white;
+}
+.todos-table td {
+  max-width:450px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: pre-wrap;
+}
+.todos-button {
+  padding: 0.175rem 0.25rem;
+  font-weight: bold;
+  background-color: rgba(11, 6, 24, 0.814);
+  border-radius: 0.25rem;
+  color: white;
+}
+.todos-button-wrapper {
+  text-align: center;
+  padding: 10px 0;
+}
+.todo-row {
+  margin: 50px 0;
+}
+/* "max-width:50px;overflow:hidden; text-overflow:ellipsis;" */
+.todos-table {
+  margin: 0 auto;
+}
+.form-top-container {
+  display: flex;
+  justify-content: start;
+  gap: 2%;
+}
+.month-form {
+  flex: 0 0 auto;
+  width: 30%;
+}
+.progress-from {
+}
+.regist-button {
+  flex: 0 0 auto;
+  width: 17.33%;
+  text-align: start;
+}
+.regist-button > button {
+  padding: 0.175rem 0.95rem;
+  font-weight: bold;
+  background-color: rgba(74, 19, 201, 0.814);
+  border-radius: 0.25rem;
+  color: white;
+}
